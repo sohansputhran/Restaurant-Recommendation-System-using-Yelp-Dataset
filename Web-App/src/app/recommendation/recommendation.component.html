@@ -1,0 +1,11 @@
+<mat-card *ngFor="let recommendation of recommendations">
+    <mat-card-title>
+        {{recommendation.name}}
+    </mat-card-title>
+    <mat-card-content>
+        Categories : {{recommendation.categories}}
+    </mat-card-content>
+    <mat-card-content>
+        Rating : {{recommendation.rating}}
+    </mat-card-content>
+</mat-card>
